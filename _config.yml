@@ -1,0 +1,9 @@
+name: Firefox Academic Center
+description: 
+url: http://firefoxacademiccenter.org
+baseurl: 
+markdown: rdiscount
+exclude:
+- CNAME
+- README.md
+- scss
