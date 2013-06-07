@@ -55,19 +55,16 @@
    Custom LESS
    by Pascal Finette
 ----------------------------------------- */
-#moztab {
-}
-
-#wrapper {
-	border-top: 2px solid #fff;
-	background: #d4dde4;
-	background: -moz-linear-gradient(top, #d4dde4 0%, #eaeff2 100%);
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#d4dde4), color-stop(100%,#eaeff2));
-	background: -webkit-linear-gradient(top, #d4dde4 0%,#eaeff2 100%);
-	background: -o-linear-gradient(top, #d4dde4 0%,#eaeff2 100%);
-	background: -ms-linear-gradient(top, #d4dde4 0%,#eaeff2 100%);
-	background: linear-gradient(to bottom, #d4dde4 0%,#eaeff2 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d4dde4', endColorstr='#eaeff2',GradientType=0 );
+#outerwrapper {
+	border-top: 2px solid #FFF;
+	background: #D7D3C8;
+	background: -moz-linear-gradient(top, #D7D3C8 0%, #F6F4EC 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#D7D3C8), color-stop(100%,#F6F4EC));
+	background: -webkit-linear-gradient(top, #D7D3C8 0%,#F6F4EC 100%);
+	background: -o-linear-gradient(top, #D7D3C8 0%,#F6F4EC 100%);
+	background: -ms-linear-gradient(top, #D7D3C8 0%,#F6F4EC 100%);
+	background: linear-gradient(to bottom, #D7D3C8 0%,#F6F4EC 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#D7D3C8', endColorstr='#F6F4EC',GradientType=0 );
 }
 
 // Monkey-Patch
