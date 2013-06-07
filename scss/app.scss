@@ -55,6 +55,22 @@
    Custom LESS
    by Pascal Finette
 ----------------------------------------- */
+#mozbar {
+	border-top: 2px solid #fff;
+}
+
+#wrapper {
+	background: #d4dde4;
+	background: -moz-linear-gradient(top, #d4dde4 0%, #eaeff2 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#d4dde4), color-stop(100%,#eaeff2));
+	background: -webkit-linear-gradient(top, #d4dde4 0%,#eaeff2 100%);
+	background: -o-linear-gradient(top, #d4dde4 0%,#eaeff2 100%);
+	background: -ms-linear-gradient(top, #d4dde4 0%,#eaeff2 100%);
+	background: linear-gradient(to bottom, #d4dde4 0%,#eaeff2 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d4dde4', endColorstr='#eaeff2',GradientType=0 );
+}
+
+// Monkey-Patch
 #tabzilla-contents {
 	padding: 0;
 }
