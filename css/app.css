@@ -794,3 +794,11 @@ blockquote p {
 
 #wrapper {
   background: url("../img/grain.png"); }
+
+Monkey-Patch
+#outerwrapper *,
+#outerwrapper *:before,
+#outerwrapper *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
