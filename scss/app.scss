@@ -71,11 +71,11 @@
 	background: url('../img/grain.png');
 }
 
-// Monkey-Patch
+// Monkey-Patch for semi-broken Tabzilla bar
 #tabzilla-panel *,
 #tabzilla-panel *:before,
 #tabzilla-panel *:after {
-	-moz-box-sizing: content-box;
 	-webkit-box-sizing: content-box;
-	box-sizing: content-box;
+	   -moz-box-sizing: content-box;
+	        box-sizing: content-box;
 }

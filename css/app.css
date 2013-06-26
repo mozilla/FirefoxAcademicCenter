@@ -798,6 +798,6 @@ blockquote p {
 #tabzilla-panel *,
 #tabzilla-panel *:before,
 #tabzilla-panel *:after {
-  -moz-box-sizing: content-box;
   -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
   box-sizing: content-box; }
