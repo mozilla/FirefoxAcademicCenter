@@ -71,6 +71,10 @@
 	background: url('../img/grain.png');
 }
 
+hr {
+	border-color: #bbb;
+}
+
 // Monkey-Patch for semi-broken Tabzilla bar
 #tabzilla-panel *,
 #tabzilla-panel *:before,

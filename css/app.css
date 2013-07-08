@@ -795,6 +795,9 @@ blockquote p {
 #wrapper {
   background: url("../img/grain.png"); }
 
+hr {
+  border-color: #bbb; }
+
 #tabzilla-panel *,
 #tabzilla-panel *:before,
 #tabzilla-panel *:after {
